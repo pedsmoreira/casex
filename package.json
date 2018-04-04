@@ -1,0 +1,49 @@
+{
+  "name": "name-case",
+  "version": "0.0.0",
+  "description": "All in one simple pattern for string cases",
+  "main": "build/name-case.js",
+  "repository": "pedsmoreira/name-case",
+  "author": "Pedro S. Moreira <pedsmoreira@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "string",
+    "namecase",
+    "snakecase",
+    "camelcase",
+    "formatting"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:ci": "npm run build && npm run test:coverage",
+    "build": "npm-run-all build:clean build:flow build:rollup build:copy-flow",
+    "build:clean": "rm -f build/*",
+    "build:flow": "flow-remove-types ./src/ -d ./build/ --pretty",
+    "build:rollup": "rollup build/index.js --o build/name-case.js -f umd --name \"name-case\"",
+    "build:copy-flow": "cp src/index.js build/name-case.js.flow",
+    "precommit": "lint-staged",
+    "prettier": "prettier --write src/**/*.js",
+    "flow": "flow",
+    "flow:check": "flow check ./src/",
+    "preversion": "npm test",
+    "version": "npm run build && git add package.json",
+    "postversion": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.69.0",
+    "flow-remove-types": "^1.2.3",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.0.3",
+    "npm-run-all": "^4.1.2",
+    "prettier": "^1.11.1",
+    "rollup": "^0.57.1"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
