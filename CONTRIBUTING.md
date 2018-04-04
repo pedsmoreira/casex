@@ -1,6 +1,6 @@
 # Contributing
 
-We'd love to have your contribution added to name-case. If you decide to do so, please follow the
+We'd love to have your contribution added to casex. If you decide to do so, please follow the
 [code of conduct](CODE_OF_CONDUCT.md)
 
 ## Prerequisites

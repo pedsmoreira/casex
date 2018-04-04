@@ -1,6 +1,6 @@
-const nameCase = require('../build');
+const casex = require('../build');
 
-describe('nameCase', () => {
+describe('casex', () => {
   it('outputs expected values', () => {
     const matches = {
       name: 'johndoe',
@@ -25,7 +25,7 @@ describe('nameCase', () => {
 
     inputs.forEach(input => {
       matchKeys.forEach(pattern => {
-        expect(nameCase(input, pattern)).toEqual(matches[pattern]);
+        expect(casex(input, pattern)).toEqual(matches[pattern]);
       });
     });
 
@@ -33,6 +33,6 @@ describe('nameCase', () => {
   });
 
   it('doesnt brake with an empty string', () => {
-    expect(nameCase('', 'name')).toEqual('');
+    expect(casex('', 'name')).toEqual('');
   });
 });
