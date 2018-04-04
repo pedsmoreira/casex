@@ -1,6 +1,6 @@
 {
   "name": "name-case",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "All in one simple pattern for string cases",
   "main": "build/name-case.js",
   "repository": "pedsmoreira/name-case",
