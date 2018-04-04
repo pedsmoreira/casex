@@ -1,6 +1,6 @@
 # casex
 
-> All in one simple pattern for string cases
+> All in one function for string cases
 
 [![npm version](https://img.shields.io/npm/v/casex.svg)](https://www.npmjs.org/package/casex)
 [![Build Status](https://travis-ci.org/pedsmoreira/casex.svg?branch=master)](https://travis-ci.org/pedsmoreira/casex)
