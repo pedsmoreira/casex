@@ -1,4 +1,4 @@
-const casex = require('../build');
+const casex = require('../build/casex.js');
 
 describe('casex', () => {
   it('outputs expected values', () => {
