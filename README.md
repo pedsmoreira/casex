@@ -10,6 +10,8 @@
 
 ## [Demo](https://codesandbox.io/s/8y83k797v0)
 
+## [Blog post explaining why casex was created and what's next](https://medium.com/@pedsmoreira/scaffolding-for-existing-projects-part-1-a-library-for-matching-cases-b353ec14a8fb)
+
 ## Install
 
 📦 [275B gziped](https://bundlephobia.com/result?p=casex)
