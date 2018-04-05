@@ -11,6 +11,10 @@ We'd love to have your contribution added to casex. If you decide to do so, plea
 
 * Running `npm install` in the root directory will install everything you need for development.
 
+## Development
+
+* `npm start` will watch for changes and build the files
+
 ## Running Tests
 
 * `npm run test` will run jest
