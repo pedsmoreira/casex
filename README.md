@@ -8,9 +8,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/maintainability)](https://codeclimate.com/github/pedsmoreira/casex/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/test_coverage)](https://codeclimate.com/github/pedsmoreira/casex/test_coverage)
 
-## [Demo](https://codesandbox.io/s/8y83k797v0)
+casex is part of [🥁 samba](https://github.com/pedsmoreira/samba), `a simple and customizable scaffolding tool for all languages and frameworks`. Check it out :)
 
-## [Blog post explaining why casex was created and what's next](https://medium.com/@pedsmoreira/scaffolding-for-existing-projects-part-1-a-library-for-matching-cases-b353ec14a8fb)
+## [Demo](https://codesandbox.io/s/8y83k797v0)
 
 ## Install
 
@@ -92,9 +92,9 @@ For these examples I'll use the text `i_am the-real JohnDoe`
 
 ## Motivation
 
-casex is part of a scaffolding tool I'm building and I decided to publish it separetely. The scaffolding tool will be linked here once it's out :)
 
 ## Resources
 
+* [Blog post explaining why casex was created and what's next](https://medium.com/@pedsmoreira/scaffolding-for-existing-projects-part-1-a-library-for-matching-cases-b353ec14a8fb)
 * [Contributing Guide](./CONTRIBUTING.md)
 * [Code of Conduct](./CODE_OF_CONDUCT.md)
