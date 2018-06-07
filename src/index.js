@@ -19,6 +19,8 @@ export default function casex(str: string, pattern: string): string {
   const secondPattern = pattern.substring(pattern.length - 2);
 
   return matches(str)
-    .map((match, index) => applyPattern(match, index === 0 ? firstPattern : secondPattern))
+    .map(function(match, index) {
+      return applyPattern(match, index === 0 ? firstPattern : secondPattern);
+    })
     .join(glue);
 }
