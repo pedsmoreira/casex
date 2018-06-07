@@ -1,6 +1,6 @@
 {
   "name": "casex",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "All in one function for transforming word casings",
   "main": "build/casex.js",
   "repository": "pedsmoreira/casex",
@@ -13,7 +13,9 @@
     "camelcase",
     "formatting"
   ],
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
