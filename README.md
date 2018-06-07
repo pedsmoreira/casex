@@ -8,8 +8,9 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/maintainability)](https://codeclimate.com/github/pedsmoreira/casex/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/test_coverage)](https://codeclimate.com/github/pedsmoreira/casex/test_coverage)
 
-## [Check out 🥁 samba](https://github.com/pedsmoreira/samba)
-casex was created as part of [🥁 samba](https://github.com/pedsmoreira/samba), a simple and customizable scaffolding tool for all languages and frameworks.
+## [Check out 🥁 BattleCry](https://github.com/pedsmoreira/battlecry)
+
+casex was created as part of [🥁 BattleCry](https://github.com/pedsmoreira/battlecry), a simple and customizable scaffolding tool for all languages and frameworks.
 
 ## [Demo](https://codesandbox.io/s/8y83k797v0)
 
