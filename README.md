@@ -16,7 +16,7 @@ casex was created as part of [🥁 BattleCry](https://github.com/pedsmoreira/bat
 
 ## Install
 
-📦 [275B gziped](https://bundlephobia.com/result?p=casex)
+📦 [290B gziped](https://bundlephobia.com/result?p=casex)
 
 ```sh
 npm install --save casex
