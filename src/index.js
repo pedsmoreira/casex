@@ -2,7 +2,9 @@
 
 function matches(str: string): string[] {
   const strMatches = str.match(/([A-Z]?)([a-z0-9]*)/g) || [];
-  return strMatches.filter(value => value.length);
+  return strMatches.filter(function(value) {
+    return value;
+  });
 }
 
 function toCase(letter: string, str: string): string {
