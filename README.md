@@ -94,7 +94,11 @@ For these examples I'll use the text `i_am the-real JohnDoe`
 
 ### Strings with numbers
 
-Since version 1.0.0 casex treats numbers and lowercase letters equally, therefore: `casex('john1-doe2', 'Ca Se') === 'John1 Doe2'`
+Since version 1.0.0 casex treats numbers and lowercase letters equally, therefore:
+
+```javascript
+casex('john1-doe2', 'Ca Se') === 'John1 Doe2'`
+```
 
 ## Resources
 
