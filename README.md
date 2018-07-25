@@ -92,8 +92,13 @@ For these examples I'll use the text `i_am the-real JohnDoe`
 * Pattern: Ca Se
 * Output: I Am The Real John Doe
 
+### Strings with numbers
+
+Since version 1.0.0 casex treats numbers and lowercase letters equally, therefore: `casex('john1-doe2', 'Ca Se') === 'John1 Doe2'`
+
 ## Resources
 
 * [Blog post explaining why casex was created and what's next](https://medium.com/@pedsmoreira/scaffolding-for-existing-projects-part-1-a-library-for-matching-cases-b353ec14a8fb)
+* [Changelog](./CHANGELOG.md)
 * [Contributing Guide](./CONTRIBUTING.md)
 * [Code of Conduct](./CODE_OF_CONDUCT.md)

@@ -1,7 +1,8 @@
 // @flow
 
 function matches(str: string): string[] {
-  return str.match(/([A-Z]?)([a-z]+)/g) || [];
+  const strMatches = str.match(/([A-Z]?)([a-z0-9]*)/g) || [];
+  return strMatches.filter(value => value.length);
 }
 
 function toCase(letter: string, str: string): string {

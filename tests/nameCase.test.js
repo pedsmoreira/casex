@@ -20,7 +20,7 @@ describe('casex', () => {
       'Na Me': 'John Doe'
     };
 
-    const inputs = ['john doe', 'johnDoe', 'john-doe', 'john_doe'];
+    const inputs = ['john doe', 'johnDoe', 'john-doe', 'john_doe', 'john.doe', 'john|doe', 'john,doe'];
     const matchKeys = Object.keys(matches);
 
     inputs.forEach(input => {
@@ -34,5 +34,13 @@ describe('casex', () => {
 
   it('doesnt brake with an empty string', () => {
     expect(casex('', 'name')).toEqual('');
+  });
+
+  it('works with individual capital letters', () => {
+    expect(casex('JohnDOE', 'caSe')).toEqual('johnDOE');
+  });
+
+  it('works with numbers', () => {
+    expect(casex('I_99-am.John1Doe2', 'Ca Se')).toEqual('I 99 Am John1 Doe2');
   });
 });
