@@ -55,4 +55,12 @@ describe('casex', () => {
   it('does not remove emojis', () => {
     expect(casex('🙂john 🙂 doe 🙂', 'caSe')).toEqual(`🙂john🙂Doe🙂`);
   });
+
+  it('can receive a simple custom regex', () => {
+    expect(casex('john.doe and jane.doe', 'ca se', '.')).toEqual('john doe and jane doe');
+  });
+
+  it('can receive a complex custom regex', () => {
+    expect(casex('john.doe,and-jane doe', 'ca Se', '.,-')).toEqual('john Doe And Jane doe');
+  });
 });
