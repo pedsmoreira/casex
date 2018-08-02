@@ -46,7 +46,18 @@ casex('john doe', 'Ca Se'); // John Doe
 
 By default, casex uses capitalizations (`A-Z`), `-`, `_` and spaces (`\s`) to break the text into words.
 
-This default will likely work for most of your cases, but if you wish, you can provide custom delimiters:
+Let's take for example `i_am the-real JohnDoe`:
+
+* `i`: 1st word
+* `am`: 2nd+ word
+* `the`: 2nd+ word
+* `real`: 2nd+ word
+* `John`: 2nd+ word
+* `Doe`: 2nd+ word
+
+#### 1.1 Custom delimiters
+
+The default will likely work for most of your cases, but if you wish, you can provide custom delimiters:
 
 ```js
 casex('foo.bar,baz', 'Ca Se', '.,'); // Foo Bar Baz
@@ -56,7 +67,7 @@ _Note: The default delmiters are: `'A-Z\\s*-'`._
 
 ### 2. Applying capitalization pattern and gluing words together
 
-In this example: `Ca_se`
+Let's take for example `Ca_se`:
 
 * `C`: first letter of the first word
 * `a`: second and subsequent letters of the first word
