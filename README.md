@@ -30,11 +30,24 @@ or https://unpkg.com/casex
 import casex from 'casex';
 
 casex(text, pattern);
+casex('john doe', 'Ca Se'); // John Doe
 ```
 
-## How the pattern works
+## How it works
 
-For casex any character that is not a letter (accents are not letters for javascript) is a breakpoint.
+### 1. Breaking text into words
+
+By default, casex uses capitalizations (`A-Z`), `-`, `_` and spaces (`\s`.) to break the text into words.
+
+If you wish, you can provide custom delimiters:
+
+```js
+casex('foo.bar,baz', 'Ca Se', '.,'); // Foo Bar Baz
+```
+
+_Note: These are the default delmiters `'A-Z\\s*-'`._
+
+### 2. Applying capitalization pattern and gluing words together
 
 In this example: `Ca_se`
 
@@ -92,13 +105,10 @@ For these examples I'll use the text `i_am the-real JohnDoe`
 * Pattern: Ca Se
 * Output: I Am The Real John Doe
 
-### Strings with numbers
+**Weird Example**
 
-Since version 1.0.0 casex treats numbers and lowercase letters equally, therefore:
-
-```javascript
-casex('john1-doe2', 'Ca Se') === 'John1 Doe2'`
-```
+* Pattern: Ca12 34Se
+* Output: I12 34Am12 34The12 34Real12 34John12 34Doe
 
 ## Resources
 
