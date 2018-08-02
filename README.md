@@ -23,7 +23,7 @@ This is not the latest version. For docs on the latest version, please refer to 
 📦 [275B gziped](https://bundlephobia.com/result?p=casex)
 
 ```sh
-npm install --save casex
+npm install --save casex@0
 ```
 
 or https://unpkg.com/casex
