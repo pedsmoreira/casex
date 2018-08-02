@@ -20,7 +20,8 @@ describe('casex', () => {
       'Na Me': 'John Doe'
     };
 
-    const inputs = ['john doe', 'johnDoe', 'john-doe', 'john_doe', 'john.doe', 'john|doe', 'john,doe'];
+    const inputs = ['john doe', 'johnDoe', 'john-doe', 'john_doe'];
+
     const matchKeys = Object.keys(matches);
 
     inputs.forEach(input => {
@@ -40,7 +41,18 @@ describe('casex', () => {
     expect(casex('JohnDOE', 'caSe')).toEqual('johnDOE');
   });
 
-  it('works with numbers', () => {
-    expect(casex('I_99-am.John1Doe2', 'Ca Se')).toEqual('I 99 Am John1 Doe2');
+  it('does not remove numbers', () => {
+    expect(casex('I_99-am.John1Doe2', 'Ca Se')).toEqual('I 99 Am. John1 Doe2');
+  });
+
+  it('does not remove symbols', () => {
+    const symbols = ['?', '!', '$', '#', '`', '¿', '¡', '(', ')', '[', ']', '{', '}', '.', ',', '/', '\\'];
+    symbols.forEach(symbol => {
+      expect(casex(`john${symbol} doe`, 'caSe')).toEqual(`john${symbol}Doe`);
+    });
+  });
+
+  it('does not remove emojis', () => {
+    expect(casex('🙂john 🙂 doe 🙂', 'caSe')).toEqual(`🙂john🙂Doe🙂`);
   });
 });

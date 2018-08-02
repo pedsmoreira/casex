@@ -1,7 +1,7 @@
 // @flow
 
 function matches(str: string): string[] {
-  const strMatches = str.match(/([A-Z]?)([a-z0-9]*)/g) || [];
+  const strMatches = str.match(/([A-Z]?)([^A-Z\s_-]*)/g) || [];
   return strMatches.filter(function(value) {
     return value;
   });
