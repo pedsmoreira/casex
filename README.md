@@ -44,9 +44,9 @@ casex('john doe', 'Ca Se'); // John Doe
 
 ### 1. Breaking text into words
 
-By default, casex uses capitalizations (`A-Z`), `-`, `_` and spaces (`\s`.) to break the text into words.
+By default, casex uses capitalizations (`A-Z`), `-`, `_` and spaces (`\s`) to break the text into words.
 
-If you wish, you can provide custom delimiters:
+This default will likely work for most of your cases, but if you wish, you can provide custom delimiters:
 
 ```js
 casex('foo.bar,baz', 'Ca Se', '.,'); // Foo Bar Baz
