@@ -23,7 +23,7 @@ Although for most cases it will work just fine, casex 2.x is not fully compatibl
 
 ## Install
 
-📦 [290B gziped](https://bundlephobia.com/result?p=casex)
+📦 [327B gziped](https://bundlephobia.com/result?p=casex)
 
 ```sh
 npm install --save casex
