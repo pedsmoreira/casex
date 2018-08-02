@@ -52,7 +52,7 @@ If you wish, you can provide custom delimiters:
 casex('foo.bar,baz', 'Ca Se', '.,'); // Foo Bar Baz
 ```
 
-_Note: These are the default delmiters `'A-Z\\s*-'`._
+_Note: The default delmiters are: `'A-Z\\s*-'`._
 
 ### 2. Applying capitalization pattern and gluing words together
 
