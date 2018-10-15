@@ -24,7 +24,7 @@ Although for most cases it will work just fine, casex 3.x is not fully compatibl
 
 ## Install
 
-📦 [327B gziped](https://bundlephobia.com/result?p=casex)
+📦 [343B gziped](https://bundlephobia.com/result?p=casex)
 
 ```sh
 npm install --save casex
