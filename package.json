@@ -1,6 +1,6 @@
 {
   "name": "casex",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "All in one function for transforming word casings",
   "main": "build/casex.js",
   "repository": "pedsmoreira/casex",
