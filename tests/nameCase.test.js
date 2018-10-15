@@ -21,7 +21,28 @@ describe('casex', () => {
     };
 
     const inputs = ['john doe', 'johnDoe', 'john-doe', 'john_doe'];
+    const matchKeys = Object.keys(matches);
 
+    inputs.forEach(input => {
+      matchKeys.forEach(pattern => {
+        expect(casex(input, pattern)).toEqual(matches[pattern]);
+      });
+    });
+
+    expect.assertions(matchKeys.length * inputs.length);
+  });
+
+  it('outputs expected values with special letters', () => {
+    const matches = {
+      'N***': 'Johndoe',
+      '**M*': 'johnDoe',
+      '**M-': 'johnD',
+      'N*M-': 'JohnD',
+      'N-M-': 'JD',
+      'N- M-': 'J D'
+    };
+
+    const inputs = ['john doe', 'john-doe', 'john_doe'];
     const matchKeys = Object.keys(matches);
 
     inputs.forEach(input => {

@@ -12,6 +12,9 @@ function matches(str: string, delimiters?: string): string[] {
 }
 
 function toCase(letter: string, str: string): string {
+  if (letter === '-') return '';
+  if (letter === '*') return str;
+
   const isUpperCase = letter === letter.toUpperCase();
   return isUpperCase ? str.toUpperCase() : str.toLowerCase();
 }

@@ -1,3 +1,7 @@
+# 3.0.0
+
+* Added special letters: `*` and `-`
+
 # 2.0.0
 
 * Updated casex to use `'A-Z\\s_-'` delimiters instead of accepting only letters and numbers.

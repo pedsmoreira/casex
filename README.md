@@ -79,6 +79,13 @@ Confusing? Check out the [demo](https://codesandbox.io/s/8y83k797v0) and/or exam
 
 _Note: You could use any other letters to describe, such as `aa$aa` or `na_me`. What matters is that it takes the first two and last two letters for checking capitalization and whatever is in the middle is "glue"._
 
+#### 2.1 Special transformations
+
+Besides using lower and uppercase letters, you can also use:
+
+* \*: Do not change word
+* \-: Remove word
+
 ## Examples
 
 For these examples I'll use the text `i_am the-real JohnDoe`
@@ -127,6 +134,19 @@ For these examples I'll use the text `i_am the-real JohnDoe`
 
 * Pattern: Ca12 34Se
 * Output: I12 34Am12 34The12 34Real12 34John12 34Doe
+
+### Examples with special characters
+
+**Capitalize first letter**
+
+* Pattern: C\* \*\*
+* Output: I am the real John Doe
+
+**Initials**
+
+* Input: John Doe
+* Pattern: C-S-
+* Output: JD
 
 ## Resources
 
