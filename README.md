@@ -16,10 +16,11 @@ casex was created as part of [🥁 BattleCry](https://github.com/pedsmoreira/bat
 
 ## Previous versions
 
-Although for most cases it will work just fine, casex 2.x is not fully compatible previous versions. If you need previous docs please refer to:
+Although for most cases it will work just fine, casex 3.x is not fully compatible previous versions. If you need previous docs please refer to:
 
 * [v0.x](https://github.com/pedsmoreira/casex/tree/0.x)
 * [v1.x](https://github.com/pedsmoreira/casex/tree/1.x)
+* [v2.x](https://github.com/pedsmoreira/casex/tree/2.x)
 
 ## Install
 
