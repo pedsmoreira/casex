@@ -64,7 +64,7 @@ The default will likely work for most of your cases, but if you wish, you can pr
 casex('foo.bar,baz', 'Ca Se', '.,'); // Foo Bar Baz
 ```
 
-_Note: The default delimiters are: `'A-Z\\s*-'`._
+_Note: The default delimiters are: `'A-Z\\s*_-'`._
 
 ### 2. Applying capitalization pattern and gluing words together
 
