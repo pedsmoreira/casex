@@ -84,8 +84,8 @@ _Note: You could use any other letters to describe, such as `aa$aa` or `na_me`. 
 
 Besides using lower and uppercase letters, you can also use:
 
-* \*: Do not change word
-* \-: Remove word
+* `*`: Do not change word
+* `-`: Remove word
 
 ## Examples
 
