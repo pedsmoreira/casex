@@ -1,16 +1,24 @@
-# casex
+<p align="center">
+  <img src="./docs/assets/logo-text.png" alt="Battlecry" width="256">
+</p>
 
-> All in one function for transforming word casings
+<p align="center">
+  All in one function for transforming word casings
+</p>
 
-[![npm version](https://img.shields.io/npm/v/casex.svg)](https://www.npmjs.org/package/casex)
-[![Build Status](https://travis-ci.org/pedsmoreira/casex.svg?branch=master)](https://travis-ci.org/pedsmoreira/casex)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
-[![Maintainability](https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/maintainability)](https://codeclimate.com/github/pedsmoreira/casex/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/test_coverage)](https://codeclimate.com/github/pedsmoreira/casex/test_coverage)
+<p align="center">
+  <a href="https://www.npmjs.org/package/casex"><img src="https://img.shields.io/npm/v/casex.svg"/></a>
+  <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"/></a>
+  <a href="https://travis-ci.org/pedsmoreira/casex"><img src="https://travis-ci.org/pedsmoreira/casex.svg?branch=master"/></a>
+  <a href="https://codeclimate.com/github/pedsmoreira/casex/maintainability"><img src="https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/maintainability" /></a>
+  <a href="https://codeclimate.com/github/pedsmoreira/casex/test_coverage"><img src="https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/test_coverage" /></a>
+</p>
 
 ## [Check out 🥁 BattleCry](https://github.com/pedsmoreira/battlecry)
 
-casex was created as part of [🥁 BattleCry](https://github.com/pedsmoreira/battlecry), a simple and customizable scaffolding tool for all languages and frameworks.
+casex was created as part of [🥁 BattleCry](https://github.com/pedsmoreira/battlecry) to allow versatile casings with text files.
+
+The casex stardard used on BattleCry is also available separately through [battle-casex](https://github.com/pedsmoreira/battle-casex)
 
 ## [Demo](https://codesandbox.io/s/8y83k797v0)
 
@@ -64,7 +72,7 @@ The default will likely work for most of your cases, but if you wish, you can pr
 casex('foo.bar,baz', 'Ca Se', '.,'); // Foo Bar Baz
 ```
 
-_Note: The default delimiters are: `'A-Z\\s*_-'`._
+_Note: The default delimiters are: `A-Z\\s_-`.
 
 ### 2. Applying capitalization pattern and gluing words together
 
