@@ -14,12 +14,6 @@
   <a href="https://codeclimate.com/github/pedsmoreira/casex/test_coverage"><img src="https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/test_coverage" /></a>
 </p>
 
-## [Check out 🥁 BattleCry](https://github.com/pedsmoreira/battlecry)
-
-casex was created as part of [🥁 BattleCry](https://github.com/pedsmoreira/battlecry) to allow versatile casings with text files.
-
-The casex stardard used on BattleCry is also available separately through [battle-casex](https://github.com/pedsmoreira/battle-casex)
-
 ## [Demo](https://codesandbox.io/s/8y83k797v0)
 
 ## Previous versions
