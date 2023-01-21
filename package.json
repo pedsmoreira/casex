@@ -27,7 +27,6 @@
     "build:flow": "flow-remove-types ./src/ -d ./build/ --pretty",
     "build:rollup": "rollup build/index.js --o build/casex.js -f umd --name \"casex\"",
     "build:copy-flow": "cp src/index.js build/casex.js.flow",
-    "precommit": "lint-staged",
     "prettier": "prettier --write src/**/*.js",
     "flow": "flow",
     "flow:check": "flow check ./src/",
