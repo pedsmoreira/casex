@@ -4,7 +4,7 @@
 * Updated function signature to use named arguments for better clarity
 * Use ESM instead of CJS
 * Named export instead of default
-* Use typescript instead of flow-typed
+* Converted to Typescript instead of flow-typed
 
 # 3.0.0
 
