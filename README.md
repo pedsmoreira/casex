@@ -1,6 +1,6 @@
-## Casex is now part of [DXTR.dev](https://dxtr.dev)
+# Casex is now part of [DXTR.DEV](https://dxtr.dev)
 
-All my personal packages are being migrated to my new company [DXTR.dev](https://dxtr.dev)
+I (Pedro) am migrating several of my packages to my new company [DXTR.DEV](https://dxtr.dev), where I'll ship tools and apps that improve developer experience.
 
 Besides being moved, Casex now has Typescript types and a new function signature with named exports.
 
@@ -9,22 +9,6 @@ New GitHub repo: https://github.com/dxtr-dot-dev/casex
 NPM package: [@dxtr.dev/casex](https://www.npmjs.com/package/@dxtr.dev/casex)
 
 -----
-
-<p align="center">
-  <img src="./docs/assets/logo-text.png" alt="Battlecry" width="256">
-</p>
-
-<p align="center">
-  All in one function for transforming word casings
-</p>
-
-<p align="center">
-  <a href="https://www.npmjs.org/package/casex"><img src="https://img.shields.io/npm/v/casex.svg"/></a>
-  <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg"/></a>
-  <a href="https://travis-ci.org/pedsmoreira/casex"><img src="https://travis-ci.org/pedsmoreira/casex.svg?branch=master"/></a>
-  <a href="https://codeclimate.com/github/pedsmoreira/casex/maintainability"><img src="https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/maintainability" /></a>
-  <a href="https://codeclimate.com/github/pedsmoreira/casex/test_coverage"><img src="https://api.codeclimate.com/v1/badges/d3177e38b1705670e8ab/test_coverage" /></a>
-</p>
 
 ## [Demo](https://codesandbox.io/s/8y83k797v0)
 
