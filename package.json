@@ -34,7 +34,7 @@
     "postversion": "git push && git push --tags",
     "ci:check": "yarn check",
     "ci:test": "yarn build && yarn test",
-    "preversion": "yarn test && yarn lint",
+    "preversion": "yarn build && yarn test && yarn lint",
     "version": "yarn build && git add package.json"
   },
   "devDependencies": {
