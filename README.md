@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://www.npmjs.org/@dxtr.dev/casex"><img src="https://img.shields.io/npm/v/@dxtr.dev/casex.svg"/></a>
   <a href="https://codeclimate.com/github/dxtr-dot-dev/casex/maintainability"><img src="https://api.codeclimate.com/v1/badges/1b65658245096ccbed56/maintainability" /></a>
-  <a href="https://codeclimate.com/github/dxtr-dot-dev/casex/test_coverage"><img src="https://api.codeclimate.com/v1/badges/1b65658245096ccbed56/test_coverage" /></a>
   <a href="https://www.npmjs.org/@dxtr.dev/casex"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
