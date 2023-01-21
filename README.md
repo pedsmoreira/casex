@@ -1,3 +1,15 @@
+## Casex is now part of [DXTR.dev](https://dxtr.dev)
+
+All my personal packages are being migrated to my new company [DXTR.dev](https://dxtr.dev)
+
+Besides being moved, Casex now has Typescript types and a new function signature with named exports.
+
+New GitHub repo: https://github.com/dxtr-dot-dev/casex
+
+NPM package: [@dxtr.dev/casex](https://www.npmjs.com/package/@dxtr.dev/casex)
+
+-----
+
 <p align="center">
   <img src="./docs/assets/logo-text.png" alt="Battlecry" width="256">
 </p>
