@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  All in one, self expressive function for string case styles
+  All in one, self expressive pattern for string case styles
 </p>
 
 <p align="center">
@@ -54,4 +54,4 @@ Casex 4.x is not compatible previous versions. If you need previous docs please 
 
 ## License
 
-Casex is open-sourced software licensed under the [./LICENSE.md](MIT license).
+Casex is open-sourced software licensed under the [MIT License](./LICENSE.md).
