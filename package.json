@@ -1,55 +1,47 @@
 {
-  "name": "casex",
+  "name": "@dxtr.dev/casex",
+  "type": "module",
   "version": "3.0.0",
-  "description": "All in one function for transforming word casings",
-  "main": "build/casex.js",
-  "repository": "pedsmoreira/casex",
-  "author": "Pedro S. Moreira <pedsmoreira@gmail.com>",
+  "description": "All in one, self expressive function for string case styles",
+  "main": "dist/casex.js",
+  "types": "dist/casex.d.ts",
+  "homepage": "https://dxtr.dev/casex",
+  "repository": "https://github.com/dxtr-dot-dev/casex",
+  "author": "DXTR.DEV <code@dxtr.dev>",
   "license": "MIT",
   "keywords": [
-    "string",
     "casex",
-    "snakecase",
-    "camelcase",
-    "formatting"
+    "case",
+    "convert",
+    "string",
+    "text",
+    "string styles",
+    "case styles",
+    "case style pattern",
+    "separator"
   ],
   "files": [
-    "build"
+    "dist"
   ],
   "scripts": {
-    "test": "jest",
-    "test:coverage": "jest --coverage",
-    "test:ci": "npm run build && npm run test:coverage",
-    "start": "watch 'npm run build:watch' ./src/",
-    "build": "npm-run-all build:clean build:flow build:rollup build:copy-flow",
-    "build:watch": "npm-run-all build:flow build:rollup",
-    "build:clean": "rm -f build/*",
-    "build:flow": "flow-remove-types ./src/ -d ./build/ --pretty",
-    "build:rollup": "rollup build/index.js --o build/casex.js -f umd --name \"casex\"",
-    "build:copy-flow": "cp src/index.js build/casex.js.flow",
-    "precommit": "lint-staged",
-    "prettier": "prettier --write src/**/*.js",
-    "flow": "flow",
-    "flow:check": "flow check ./src/",
-    "preversion": "npm test",
-    "version": "npm run build && git add package.json",
-    "postversion": "git push && git push --tags"
+    "build": "tsup --entry.casex src/casex.ts --dts --format esm",
+    "build:watch": "yarn build:tsup --watch",
+    "typecheck": "tsc --noEmit src/casex.ts",
+    "format": "rome format src --write",
+    "lint": "rome check src",
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest)",
+    "test:coverage": "yarn test --coverage",
+    "postversion": "git push && git push --tags",
+    "ci:check": "yarn check",
+    "ci:test": "yarn build && yarn test:coverage",
+    "preversion": "yarn test && yarn lint",
+    "version": "yarn build && git add package.json"
   },
   "devDependencies": {
-    "flow-bin": "^0.69.0",
-    "flow-remove-types": "^1.2.3",
-    "husky": "^0.14.3",
-    "jest": "^22.4.3",
-    "lint-staged": "^7.0.3",
-    "npm-run-all": "^4.1.2",
-    "prettier": "^1.11.1",
-    "rollup": "^0.57.1",
-    "watch": "^1.0.2"
-  },
-  "lint-staged": {
-    "src/**/*.js": [
-      "prettier --write",
-      "git add"
-    ]
+    "@types/jest": "^29.2.6",
+    "jest": "^29.3.1",
+    "rome": "^11.0.0",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.4"
   }
 }
