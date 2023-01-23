@@ -24,7 +24,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup --entry.casex src/casex.ts --dts --format esm",
+    "build": "tsup --entry.casex src/casex.ts --dts --format esm --minify",
     "build:watch": "yarn build:tsup --watch",
     "typecheck": "tsc --noEmit src/casex.ts",
     "format": "rome format src --write",
