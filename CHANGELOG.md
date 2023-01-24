@@ -2,9 +2,9 @@
 
 * Casex is now part of the DXTR.DEV umbrella
 * Updated function signature to use named arguments for better clarity
-* Use ESM instead of CJS
-* Named export instead of default
-* Converted to Typescript instead of flow-typed
+* Use ESM instead of UMD
+* Update from default to named export
+* Converted from Flow to Typescript
 
 # 3.0.0
 

@@ -41,7 +41,7 @@ We also provide support for keeping the style of parts of the string (`*`) or re
 
 ## Documentation
 
-The ful documentation is available at [dxtr.dev/casex](dxtr.dev/casex)
+The full documentation is available at [dxtr.dev/casex](dxtr.dev/casex)
 
 ## Previous versions
 
