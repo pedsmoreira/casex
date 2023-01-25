@@ -1,6 +1,6 @@
-import { casexPatternFromString } from "./_internal/casexPatternFromString";
-import { casexPatternFromString } from "./_internal/casexSyllableCase";
-import { splitWithDelimiters } from "./_internal/splitWithDelimiters";
+import { casexPatternFromString } from "./_internal/casex-pattern-from-string";
+import { casexSyllableCase } from "./_internal/casex-syllable-case";
+import { splitWithDelimiters } from "./_internal/split-with-delimiters";
 
 export function casex(args: {
 	text: string;

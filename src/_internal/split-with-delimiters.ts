@@ -1,14 +1,11 @@
 const DELIMITERS = "A-Z\\s_-";
 
-interface SplitWithDelimitersArgs {
+type Args = {
 	text: string;
 	delimiters?: string;
-}
+};
 
-export function splitWithDelimiters({
-	text,
-	delimiters,
-}: SplitWithDelimitersArgs): string[] {
+export function splitWithDelimiters({ text, delimiters }: Args): string[] {
 	const regex = new RegExp(
 		// rome-ignore lint/style/useTemplate: <explanation>
 		"([A-Z]?)([^" + (delimiters || DELIMITERS) + "]*)",
