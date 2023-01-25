@@ -1,9 +1,9 @@
-type Args = {
+interface CasexLetterCaseArgs {
 	text: string;
 	letter: string;
-};
+}
 
-export function casexLetterCase({ text, letter }: Args): string {
+export function casexLetterCase({ text, letter }: CasexLetterCaseArgs): string {
 	if (letter === "-") return "";
 	if (letter === "*") return text;
 
