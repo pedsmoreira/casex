@@ -1,4 +1,5 @@
-import { casex } from "../dist/casex.js";
+import { casex } from "../dist/casex";
+import { describe, test, expect } from "vitest";
 
 describe("casex", () => {
 	test("works for common string styles", () => {
