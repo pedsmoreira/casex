@@ -1,5 +1,5 @@
 import { casex } from "../dist/casex";
-import { describe, it, expect } from "vitest";
+import { it, expect } from "vitest";
 
 it("works for common string styles", () => {
 	const matches = {
