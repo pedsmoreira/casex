@@ -21,7 +21,7 @@ Instead of having a specific function for each case style, I provide a self-expr
 
 ## Official Documentation
 
-Documentation for Casex can be found at [dxtr.dev/casex](dxtr.dev/casex).
+Documentation for Casex can be found at [dxtr.dev/casex](https://dxtr.dev/casex).
 
 ## License
 
