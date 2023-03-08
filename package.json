@@ -1,7 +1,7 @@
 {
   "name": "@dxtr.dev/casex",
   "type": "module",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "All in one, self expressive function for string case styles",
   "main": "dist/casex.js",
   "types": "dist/casex.d.ts",
