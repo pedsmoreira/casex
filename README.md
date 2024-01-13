@@ -4,7 +4,7 @@ All in one, self expressive pattern for string case styles
 
 ## Introduction
 
-`casex` is a function that applies a case style given a pattern.
+_casex_ is a function that applies a case style given a pattern.
 
 Instead of having a specific function for each case style, I provide a self-expressive pattern that represent the desired output. For example, kebab-case can be represented as `ca-se` and title case as `Ca Se`.
 
@@ -26,7 +26,7 @@ casex({ text: "your text", pattern: "ca-se" }); // your-text
 
 ### 1. Breaking text into words
 
-By default, `casex` uses capitalizations (`A-Z`), `-`, `_` and spaces (`\s`) to break the text into words.
+By default, _casex_ uses capitalizations (`A-Z`), `-`, `_` and spaces (`\s`) to break the text into words.
 
 Let's take for example `i_am the-real JohnDoe`:
 
@@ -130,7 +130,7 @@ For these examples I'll use the text `i_am the-real JohnDoe`
 
 ## Previous versions
 
-Although for most cases it will work just fine, `casex` 4.x is not fully compatible previous versions. If you need previous docs please refer to:
+Although for most cases it will work just fine, _casex_ 4.x is not fully compatible previous versions. If you need previous docs please refer to:
 
 - [v0.x](https://github.com/pedsmoreira/casex/tree/0.x)
 - [v1.x](https://github.com/pedsmoreira/casex/tree/1.x)
