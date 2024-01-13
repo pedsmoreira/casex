@@ -8,6 +8,8 @@ Casex is a function that applies a case style given a pattern.
 
 Instead of having a specific function for each case style, I provide a self-expressive pattern that represent the desired output. For example, kebab-case can be represented as `ca-se` and title case as `Ca Se`.
 
+[Demo](https://codesandbox.io/s/8y83k797v0)
+
 ## Install
 
 ```sh
