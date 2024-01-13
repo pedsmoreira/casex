@@ -27,8 +27,7 @@
     "build": "tsup --entry.casex src/casex.ts --dts --format esm --minify",
     "build:watch": "yarn build --watch",
     "typecheck": "tsc --noEmit src/casex.ts",
-    "format": "rome format src --write",
-    "lint": "rome check src",
+    "format": "prettier ./src/**/* --write",
     "test": "vitest",
     "postversion": "git push && git push --tags",
     "ci:check": "yarn check",
@@ -37,7 +36,7 @@
     "version": "yarn build && git add package.json"
   },
   "devDependencies": {
-    "rome": "^11.0.0",
+    "prettier": "^3.2.1",
     "tsup": "^6.5.0",
     "typescript": "^4.9.4",
     "vitest": "^0.28.4"
