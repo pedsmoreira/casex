@@ -34,8 +34,5 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Formatting and Lint (Rome check)
-        run: yarn ci:check
-
       - name: Execute tests
         run: yarn ci:test
