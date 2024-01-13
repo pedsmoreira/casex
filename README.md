@@ -4,7 +4,7 @@ All in one, self expressive pattern for string case styles
 
 ## Introduction
 
-Casex is a function that applies a case style given a pattern.
+casex is a function that applies a case style given a pattern.
 
 Instead of having a specific function for each case style, I provide a self-expressive pattern that represent the desired output. For example, kebab-case can be represented as `ca-se` and title case as `Ca Se`.
 
@@ -42,7 +42,7 @@ Let's take for example `i_am the-real JohnDoe`:
 The default will likely work for most of your cases, but if you wish, you can provide custom delimiters:
 
 ```js
-casex({ text: 'foo.bar,baz', pattern: 'Ca Se', '.,' }); // Foo Bar Baz
+casex({ text: 'foo.bar,baz', pattern: 'Ca Se', delimiters: '.,' }); // Foo Bar Baz
 ```
 
 _Note: The default delimiters are: `A-Z\\s_-`.
@@ -57,7 +57,7 @@ Let's take for example `Ca_se`:
 * `s`: first letter of the second and subsequent words
 * `e`: second and subsequent letters of the second and subsequent words
 
-_Note: You can use any other letters to describe, such as `aa$aa` or `na_me`. What matters is that it takes the first two and last two letters for checking capitalization and whatever is in the middle is "glue"._
+_Note: You can use any other letters to describe the pattern, such as `aa$aa` or `na_me`. What matters is that it takes the first two and last two letters for checking capitalization and whatever is in the middle is "glue"._
 
 #### 2.1 Special transformations
 
@@ -130,7 +130,7 @@ For these examples I'll use the text `i_am the-real JohnDoe`
 
 ## Previous versions
 
-Although for most cases it will work just fine, casex 3.x is not fully compatible previous versions. If you need previous docs please refer to:
+Although for most cases it will work just fine, casex 4.x is not fully compatible previous versions. If you need previous docs please refer to:
 
 * [v0.x](https://github.com/pedsmoreira/casex/tree/0.x)
 * [v1.x](https://github.com/pedsmoreira/casex/tree/1.x)
