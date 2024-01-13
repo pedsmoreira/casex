@@ -1,14 +1,6 @@
-# Casex is now part of [DXTR.DEV](https://dxtr.dev)
+# casex
 
-I (Pedro) am migrating several of my packages to my new company [DXTR.DEV](https://dxtr.dev), where I'll ship tools and apps that improve developer experience.
-
-Besides being moved, Casex now has Typescript types and a new function signature with named exports.
-
-New GitHub repo: https://github.com/dxtr-dot-dev/casex
-
-NPM package: [@dxtr.dev/casex](https://www.npmjs.com/package/@dxtr.dev/casex)
-
------
+All in one, self expressive pattern for string case styles
 
 ## [Demo](https://codesandbox.io/s/8y83k797v0)
 
