@@ -136,7 +136,3 @@ Although for most cases it will work just fine, `casex` 4.x is not fully compati
 - [v1.x](https://github.com/pedsmoreira/casex/tree/1.x)
 - [v2.x](https://github.com/pedsmoreira/casex/tree/2.x)
 - [v3.x](https://github.com/pedsmoreira/casex/tree/3.x)
-
-## License
-
-casex is open-sourced software licensed under the [MIT License](./LICENSE.md).
