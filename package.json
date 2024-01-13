@@ -1,13 +1,12 @@
 {
-  "name": "@dxtr.dev/casex",
+  "name": "casex",
   "type": "module",
-  "version": "4.0.3",
+  "version": "3.0.2",
   "description": "All in one, self expressive function for string case styles",
   "main": "dist/casex.js",
   "types": "dist/casex.d.ts",
-  "homepage": "https://dxtr.dev/casex",
-  "repository": "https://github.com/dxtr-dot-dev/casex",
-  "author": "DXTR.DEV <code@dxtr.dev>",
+  "repository": "https://github.com/pedsmoreira/casex",
+  "author": "Pedro Moreira <code@pedrosm.com>",
   "license": "MIT",
   "keywords": [
     "casex",
@@ -32,7 +31,7 @@
     "postversion": "git push && git push --tags",
     "ci:check": "yarn check",
     "ci:test": "yarn build && yarn test",
-    "preversion": "yarn build && yarn test && yarn lint",
+    "preversion": "yarn build && yarn test",
     "version": "yarn build && git add package.json"
   },
   "devDependencies": {

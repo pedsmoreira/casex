@@ -1,6 +1,5 @@
 # 4.0.0
 
-* Casex is now part of the DXTR.DEV umbrella
 * Updated function signature to use named arguments for better clarity
 * Use ESM instead of UMD
 * Update from default to named export
