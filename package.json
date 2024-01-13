@@ -26,7 +26,7 @@
     "build": "tsup --entry.casex src/casex.ts --dts --format esm --minify",
     "build:watch": "yarn build --watch",
     "typecheck": "tsc --noEmit src/casex.ts",
-    "format": "prettier ./src/**/* --write",
+    "format": "prettier ./src/**/* --write; prettier ./*.md --write",
     "test": "vitest",
     "postversion": "git push && git push --tags",
     "ci:check": "yarn check",
