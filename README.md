@@ -139,4 +139,4 @@ Although for most cases it will work just fine, casex 4.x is not fully compatibl
 
 ## License
 
-Casex is open-sourced software licensed under the [MIT License](./LICENSE.md).
+casex is open-sourced software licensed under the [MIT License](./LICENSE.md).
